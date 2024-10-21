@@ -1263,7 +1263,7 @@ footer h4{
     .first-image img {
         width: 25rem;
         height:25rem ;
-        left: -7rem;
+        left: -8rem;
         bottom: -1rem;
     }
     .background-eyes {
@@ -1289,7 +1289,7 @@ footer h4{
     .scroll a {
         top: 18rem;
         font-size: 12px;
-        left: 2rem;
+        right: -1px;
     }
 
     /* About */
@@ -1490,11 +1490,17 @@ footer h4{
         margin-bottom: 1rem;
     }
     .list-footer{
-        font-size: 15px;
+        font-size: 13px;
+        margin-left: -1rem;
+    }
+    
+    .list-footer li{
+        margin: 3px;
+        
     }
     .list-footer span {
         position: relative;
-        right: 1rem;
+        right: 1.3rem;
         top: 1rem;
     }
 
