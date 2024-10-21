@@ -1261,9 +1261,9 @@ footer h4{
 
     /* home section */  
     .first-image img {
-        width: 23rem;
-        height:23rem ;
-        left: -6rem;
+        width: 25rem;
+        height:25rem ;
+        left: -7rem;
         bottom: -1rem;
     }
     .background-eyes {
@@ -1276,19 +1276,20 @@ footer h4{
       .first-text h1 {
         font-size: 3rem; 
         white-space: nowrap; 
-        left: -7rem;
-        top: 26rem;
+        left: -2rem;
+        top: 34rem;
     }
 
     .typing {
-        font-size: 11px; 
+        font-size: 12px; 
         white-space: nowrap; 
-        left: -6.8rem;
-        top: 26rem;
+        left: -6rem;
+        top: 33rem;
     }
     .scroll a {
-        top: 20rem;
+        top: 18rem;
         font-size: 12px;
+        left: 2rem;
     }
 
     /* About */
