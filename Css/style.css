@@ -1245,176 +1245,170 @@ footer h4{
 
 /* BREAK POINT 480PX */
 @media screen and (max-width:480px){
-  
+
+    body{
+        overflow-x: hidden; /* Previne rolagem horizontal */
+    }
 
     /* Navbar */
-
-    .list-bar, .btn-contato{
+    .list-bar, .btn-contato {
         display: none;
     }
 
     /* logo */
-    .logo img{
+    .logo img {
         width: 6rem;
         margin-left: 1rem;
     }
 
-    /* home section */  
+    /* home section */
     .first-image img {
-        width: 25rem;
-        height:25rem ;
-        left: -8rem;
-        bottom: -1rem;
+        width: 20rem; 
+        max-width: 25rem; 
+        height: 20rem;
+        margin-top: 7rem;
+        margin-left: -9rem;
     }
+
     .background-eyes {
-        top:10rem;
-        left: 7rem;
+        top: 10rem;
+        left: 50%;
+        transform: translateX(-50%); /* Centraliza horizontalmente */
         width: 3.5rem;
         height: 5.5rem;
-      }
-    
-      .first-text h1 {
-        font-size: 3rem; 
-        white-space: nowrap; 
-        left: -2rem;
+    }
+
+    .first-text h1 {
+        font-size: 3rem;
+        white-space: nowrap;
+        text-align: center; /* Centraliza o texto */
+        position: relative;
         top: 34rem;
+        left: -2rem;
+        transform: translateX(0); /* Remove deslocamento à esquerda */
     }
 
     .typing {
-        font-size: 12px; 
-        white-space: nowrap; 
-        left: -6rem;
+        font-size: 12px;
+        white-space: nowrap;
+        text-align: center; /* Centraliza o texto */
+        position: relative;
         top: 33rem;
+        right:1rem ;
+        transform: translateX(0); /* Remove deslocamento à esquerda */
     }
+
     .scroll a {
         top: 18rem;
         font-size: 12px;
-        right: -1px;
+        position: relative;
+        margin: 0 auto;
+        display: block;
+        right: 0; /* Remove deslocamento à direita */
     }
 
     /* About */
-    main{
+    main {
         margin-top: 6rem;
     }
 
-    .hello{
+    .hello {
         background-size: 120px;
         position: relative;
-        left: 3rem;
-        background-size: 120px;
+        margin: 0 auto; /* Centraliza */
         top: 1rem;
     }
-    .hello h2{
-        transition: .2s ease-in;
+
+    .hello h2 {
         margin-top: -5rem;
-        margin-left: -25px;
+        margin-left: 0; /* Remove deslocamento à esquerda */
+        text-align: center;
         font-size: 15px;
         white-space: nowrap;
-       
-
     }
-    .hello>h3{
-        margin-left: 1rem;
+
+    .hello > h3 {
+        margin-left: 0;
         margin-top: 6rem;
+        text-align: center;
         position: relative;
-        right: 10rem;
-        white-space: nowrap;
+        right: 0; /* Remove deslocamento à direita */
         font-size: 15px;
-     }
-
-     .about-container{
-        height: 10rem;
-        width: 21rem;   
     }
-    
-    .about{
+
+    .about-container {
+        height: auto;
+        width: 100%;
+        max-width: 21rem;
+        margin: 0 auto; /* Centraliza */
+    }
+
+    .about {
         margin-top: -1rem;
         font-size: 15px;
+        text-align: center;
     }
-    section.about-me{
-        margin-bottom: -10rem;
-    }
-    
-    .about p{
-        line-height: 1.2rem;
-        
-    }
-    
-    /* skills */
 
-    .title-skills{
-        margin-bottom: 10rem;
+    section.about-me {
+        margin-bottom: 0;
     }
-    .base-txt{
-        margin: 1rem 0px 10rem;
+
+    .about p {
+        line-height: 1.2rem;
+        text-align: center;
+    }
+
+    /* skills */
+    .title-skills {
+        margin-bottom: 10rem;
+        text-align: center;
+    }
+
+    .base-txt {
+        margin: 1rem 0 10rem;
         font-size: 1rem;
+        text-align: center;
         position: relative;
-        left: -10px;
+        left: 0;
         margin-top: -3rem;
     }
 
-    .hard-txt{
-        position: relative;
-        left: 15rem;
-        white-space: nowrap;
-        bottom: 26rem;
-        margin-bottom: -9rem;
-    }
-    .soft-txt-container{
-        position: relative;
-        left: 13.3rem;
-        white-space: nowrap;
-        bottom: 27.5rem;
-    }
     .skills {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         gap: 20px;
-        width: 350px;
-        margin-left: 3rem;
-       
+        width: 100%;
+        max-width: 350px; /* Limita a largura */
+        margin-left: auto;
+        margin-right: auto;
     }
 
-    .hard-skills {
-        width: 350px; 
-        height: 750px;
+    .hard-skills, .soft-skills {
+        width: 100%;
+        max-width: 350px;
+        height: auto; /* Ajuste para evitar rolagem */
         display: flex;
         align-items: center;
         justify-content: center;
         margin-top: -10rem;
         position: relative;
-        right: 1.5rem;
+        right: 0;
     }
 
-    .soft-skills{
-        width: 350px; 
-        height: 750px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-        right: 1.5rem;
-        bottom: 4rem;
-    }
-
-    .soft-txt-container{
-        left: 17rem;
-
-    }
-
-    .icons-container{
+    .icons-container {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         gap: 4px;
         margin-top: 10px;
         position: relative;
-        left: 1rem;
+        left: 0;
     }
-    .soft-container{
-        margin-left: 10rem;
+
+    .soft-container {
+        margin-left: 0;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -1422,101 +1416,83 @@ footer h4{
     }
 
     .card, .soft-card {
-        width: 130px; 
-        margin-right: 5rem;
-        margin-bottom: 15px;
-    }
-    .card{
-        height: 150px;
-    }
-    
-    .soft-skills{
-        height: 59rem;
+        width: 130px;
+        margin: 0 auto 15px;
     }
 
-    .soft-card{
-        width: 144px; 
-        height:12rem;
-        margin-right: 5rem;
+    .card {
+        height: 150px;
+    }
+
+    .soft-card {
+        width: 144px;
+        height: 12rem;
+        margin-right: 0;
         margin-bottom: 15px;
         border-radius: 1.5rem;
     }
-    /* SERVICES */
 
-    .services-section{
+    /* SERVICES */
+    .services-section {
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-left: 2rem;
+        margin-left: auto;
+        margin-right: auto;
         margin-top: 25rem;
     }
-    .services-container{
+
+    .services-container {
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        margin-right: 2rem;
+        margin-right: auto;
+        margin-left: auto;
         margin-top: -5rem;
     }
 
-    .txt-services-container{
+    .txt-services-container {
         position: relative;
-        left: auto;
+        left: 0;
         bottom: 7rem;
         margin-bottom: -2.5rem;
         font-size: 25px;
+        text-align: center;
     }
-    .list span {
-        height: 25px;
-        width: 25px;
-    }
-
-    .list p {
-        font-size: 13px;
-    }
-
-
 
     /* footer */
-
-    footer{
+    footer {
         margin-top: -23rem;
         position: relative;
         top: 26rem;
-        left: 1rem;
+        left: 0;
         display: flex;
         align-items: center;
         justify-content: center;
         margin-bottom: 1rem;
     }
-    .list-footer{
+
+    .list-footer {
         font-size: 13px;
-        margin-left: -1rem;
-    }
-    
-    .list-footer li{
-        margin: 3px;
-        
-    }
-    .list-footer span {
-        position: relative;
-        right: 1.3rem;
-        top: 1rem;
+        margin-left: 0;
     }
 
-    .copy{
+    .list-footer li {
+        margin: 3px;
+    }
+
+    .copy {
         font-size: 15px;
         white-space: nowrap;
         position: relative;
-        left: -10px;
+        left: 0;
         top: -2rem;
-
+        text-align: center;
     }
 
     .float-btn-whats {
         width: 50px;
         height: 50px;
     }
-
 }
-
