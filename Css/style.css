@@ -1320,7 +1320,7 @@ footer h4{
     }
 
     .hello h2 {
-        margin-top: -5rem;
+        margin-top: -4rem;
         margin-left:-2rem ; 
         text-align: center;
         font-size: 15px;
@@ -1329,7 +1329,7 @@ footer h4{
 
     .hello > h3 {
         margin-left: -9rem;
-        margin-top: 6rem;
+        margin-top: 5rem;
         text-align: center;
         position: relative;
         right: 0; 
@@ -1344,7 +1344,7 @@ footer h4{
     }
 
     .about {
-        margin-top: -1rem;
+        margin-top: -2rem;
         font-size: 15px;
         text-align: center;
     }
