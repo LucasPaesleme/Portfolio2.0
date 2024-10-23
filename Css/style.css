@@ -285,10 +285,10 @@ html{
 
 @keyframes float {
     0%, 100% {
-        transform: translateY(0); /* Posição original */
+        transform: translateY(0); 
     }
     50% {
-        transform: translateY(-10px); /* Move para cima */
+        transform: translateY(-10px); 
     }
 }
 
@@ -1247,7 +1247,7 @@ footer h4{
 @media screen and (max-width:480px){
 
     body{
-        overflow-x: hidden; /* Previne rolagem horizontal */
+        overflow-x: hidden; 
     }
 
     /* Navbar */
@@ -1271,31 +1271,31 @@ footer h4{
     }
 
     .background-eyes {
-        top: 10rem;
-        left: 50%;
-        transform: translateX(-50%); /* Centraliza horizontalmente */
-        width: 3.5rem;
+        margin-top: -1rem;  
+        left: 70%;
+        transform: translateX(-50%); 
+        width: 3rem;
         height: 5.5rem;
     }
 
     .first-text h1 {
         font-size: 3rem;
         white-space: nowrap;
-        text-align: center; /* Centraliza o texto */
+        text-align: center; 
         position: relative;
         top: 34rem;
         left: -2rem;
-        transform: translateX(0); /* Remove deslocamento à esquerda */
+        transform: translateX(0); 
     }
 
     .typing {
-        font-size: 12px;
+        font-size: 10px;
         white-space: nowrap;
-        text-align: center; /* Centraliza o texto */
+        text-align: center; 
         position: relative;
         top: 33rem;
-        right:1rem ;
-        transform: translateX(0); /* Remove deslocamento à esquerda */
+        margin-left:2rem ;
+        transform: translateX(0); 
     }
 
     .scroll a {
@@ -1304,7 +1304,7 @@ footer h4{
         position: relative;
         margin: 0 auto;
         display: block;
-        right: 0; /* Remove deslocamento à direita */
+        right: 0; 
     }
 
     /* About */
@@ -1315,24 +1315,24 @@ footer h4{
     .hello {
         background-size: 120px;
         position: relative;
-        margin: 0 auto; /* Centraliza */
+        margin-left: 10rem;
         top: 1rem;
     }
 
     .hello h2 {
         margin-top: -5rem;
-        margin-left: 0; /* Remove deslocamento à esquerda */
+        margin-left:-3rem ; 
         text-align: center;
         font-size: 15px;
         white-space: nowrap;
     }
 
     .hello > h3 {
-        margin-left: 0;
+        margin-left: -8rem;
         margin-top: 6rem;
         text-align: center;
         position: relative;
-        right: 0; /* Remove deslocamento à direita */
+        right: 0; 
         font-size: 15px;
     }
 
@@ -1340,7 +1340,7 @@ footer h4{
         height: auto;
         width: 100%;
         max-width: 21rem;
-        margin: 0 auto; /* Centraliza */
+        margin: 0 auto; 
     }
 
     .about {
