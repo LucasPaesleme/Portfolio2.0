@@ -1283,7 +1283,7 @@ footer h4{
         white-space: nowrap;
         text-align: center; 
         position: relative;
-        top: 28rem;
+        top: 25rem;
         left: -2rem;
         transform: translateX(0); 
     }
@@ -1293,13 +1293,13 @@ footer h4{
         white-space: nowrap;
         text-align: center; 
         position: relative;
-        top: 28rem;
+        top: 25rem;
         margin-left:2rem ;
         transform: translateX(0); 
     }
 
     .scroll a {
-        top: 15rem;
+        top: 13rem;
         font-size: 12px;
         position: relative;
         margin: 0 auto;
