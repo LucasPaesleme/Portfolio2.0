@@ -682,7 +682,17 @@ section.skills{
     opacity: 0;
   }
 
+
   
+  .soft-card:hover .second-content {
+    opacity: 1;
+    height: 100%;
+    font-size: 17px;
+    color: var(--black);
+    font-weight: bolder;
+  }
+  
+  /* HARD CARDS */
   .second-content {
     height: 0%;
     width: 100%;
@@ -694,16 +704,6 @@ section.skills{
     transition: all 0.3s;
     font-size: 0px;
   }
-  
-  .soft-card:hover .second-content {
-    opacity: 1;
-    height: 100%;
-    font-size: 17px;
-    color: var(--black);
-    font-weight: bolder;
-  }
-  
-  /* HARD CARDS */
   .icons i {
     font-size: 4rem;
     text-align: center;
@@ -1387,6 +1387,9 @@ footer h4{
         left: 12.5rem;
         white-space: nowrap;
     }
+    .soft-card .second-content span {
+        font-size: 15px;
+    }
 
 
     #skills{
@@ -1434,6 +1437,7 @@ footer h4{
         margin-top: 10px;
         position: relative;
         left: -1rem;
+        padding-top: 5px;
     }
 
     .soft-container {
@@ -1455,11 +1459,10 @@ footer h4{
  
     .soft-card {
         width: 144px;
-        height: 12rem;
+        height: 11rem;
         margin-left: 5rem;
-        margin-bottom: 15px;
         border-radius: 1.5rem;
-        
+        margin-top: 5px;
     }
 
     /* SERVICES */
@@ -1506,7 +1509,7 @@ footer h4{
 
     .list-footer {
         font-size: 13px;
-        padding-left: 1rem;
+        padding-left: 1.5rem;
     }
 
     .list-footer li span{
