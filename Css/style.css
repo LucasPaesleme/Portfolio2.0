@@ -1074,14 +1074,14 @@ footer h4{
         font-size: 4rem; 
         white-space: nowrap; 
         left: -7rem;
-        top: 23rem;
+        top: 25rem;
     }
     
     .typing {
         font-size: 15px; 
         white-space: nowrap; 
         left: -6.8rem;
-        top: 22.5rem;
+        top: 25rem;
     }
     .scroll a {
         top: 7rem;
@@ -1097,6 +1097,7 @@ footer h4{
 
     main{
         margin-top: -8rem;
+
     }
         
     .hello{
@@ -1123,7 +1124,8 @@ footer h4{
         
     .about-container{
         height: 37rem;
-        width: 40rem;    
+        width: 40rem;
+        margin-left: 3.5rem ;  
     }
         
     .about{
@@ -1145,7 +1147,11 @@ footer h4{
         position: relative;
         bottom: 8rem;
     }
-        
+    
+    .title-skills{
+        margin-left: 1.6rem;
+    }
+
     .skills{
         display: block;
         position: relative;
@@ -1190,15 +1196,20 @@ footer h4{
     
 
     /* SERVICES */
+    section.services-section{
+        padding-left: 2.2rem;
+    }
 
     .txt-services-container{
         margin-top: 70rem;
         margin-left: -2rem;
         margin-bottom: 5rem;
+        padding-left: 1.3rem;
     }
     .txt-services-container h3{
         font-size: 25px;
     }
+
 
     .services-container{
         display: block;
@@ -1221,6 +1232,7 @@ footer h4{
     .list-footer{
         font-size: 25px;
         margin-left: 10px;
+        padding-left: 2rem;
     }
     .list-footer li{
         margin: 10px;
@@ -1234,7 +1246,7 @@ footer h4{
     }
 
     .copy{
-        font-size: 15px;
+        font-size: 20px;
         white-space: nowrap;
         position: relative;
         left: -10px;
