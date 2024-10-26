@@ -1491,10 +1491,7 @@ footer h4{
 
     .list-footer {
         font-size: 13px;
-        
-    }
-    .list-footer ul li {
-        font-size: 13px;
+        padding-left: 1rem;
     }
 
     .list-footer li span{
@@ -1503,7 +1500,7 @@ footer h4{
     }
 
     .footer-icons {
-        margin-right: -1.8rem; 
+        margin-right: -2rem; 
     }
 
     .copy {
