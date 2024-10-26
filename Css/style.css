@@ -1232,7 +1232,7 @@ footer h4{
     .list-footer{
         font-size: 25px;
         margin-left: 10px;
-        padding-left: 2rem;
+        padding-left: 3.7rem;
     }
     .list-footer li{
         margin: 10px;
@@ -1249,7 +1249,7 @@ footer h4{
         font-size: 20px;
         white-space: nowrap;
         position: relative;
-        left: -10px;
+        left: 5px;
         top: auto;
 
     }
@@ -1375,6 +1375,8 @@ footer h4{
         margin-bottom:9rem;
         margin-top: -10rem;
         text-align: center;
+        font-size: 15px;
+        margin-right: 1.5rem;
     }
 
     .base-txt {
@@ -1388,7 +1390,7 @@ footer h4{
 
 
     #skills{
-        margin-top: -15rem;
+        margin-top: -13rem;
     }
 
     .skills {
@@ -1465,8 +1467,7 @@ footer h4{
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-left: auto;
-        margin-right: auto;
+        margin-right: 2.2rem;
         margin-top: 20rem;
     }
 
@@ -1485,8 +1486,10 @@ footer h4{
         left: 0;
         bottom: 7rem;
         margin-bottom: -2.5rem;
-        font-size: 25px;
-        text-align: center;
+    }
+    .txt-services-container h3{
+        font-size: 20px;
+
     }
 
     /* footer */
@@ -1519,9 +1522,8 @@ footer h4{
         font-size: 15px;
         white-space: nowrap;
         position: relative;
-        left: 0;
         top: -2rem;
-        text-align: center;
+        margin-left: 8px;
     }
 
     .float-btn-whats {
