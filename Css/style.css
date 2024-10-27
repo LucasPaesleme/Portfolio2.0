@@ -1524,7 +1524,8 @@ footer h4{
 
     .list-footer {
         font-size: 13px;
-        padding-left: 1.7rem;
+        margin-left: -2rem;
+      
     }
 
     .list-footer li span{
