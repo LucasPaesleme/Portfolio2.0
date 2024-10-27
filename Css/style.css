@@ -704,6 +704,7 @@ section.skills{
     transition: all 0.3s;
     font-size: 0px;
   }
+
   .icons i {
     font-size: 4rem;
     text-align: center;
@@ -1422,10 +1423,16 @@ footer h4{
 
     .soft-skills{
         margin-top: 8rem;
+
     }
 
+    #last-card{
+        margin-bottom: 1.2rem;
+    }
+
+
     .soft-txt-container{
-        bottom: 15rem;
+        bottom: 13rem;
         right: 9px;
     }
 
@@ -1458,12 +1465,18 @@ footer h4{
     }
  
     .soft-card {
-        width: 144px;
-        height: 11rem;
+        width: 130px;
+        height: 9.3rem;
         margin-left: 5rem;
         border-radius: 1.5rem;
         margin-top: 5px;
+        margin-bottom: -5px;
     }
+    .second-content p {
+        font-size: 14px;
+      }
+    
+ 
 
     /* SERVICES */
     .services-section {
@@ -1471,7 +1484,7 @@ footer h4{
         align-items: center;
         justify-content: center;
         margin-right: 2.2rem;
-        margin-top: 20rem;
+        margin-top: 8rem;
     }
 
     .services-container {
@@ -1492,7 +1505,7 @@ footer h4{
     }
     .txt-services-container h3{
         font-size: 20px;
-
+        margin-left: 10px;
     }
 
     /* footer */
