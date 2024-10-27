@@ -1531,7 +1531,7 @@ footer h4{
     }
 
     .footer-icons {
-        margin-right: -2rem; 
+        margin-right: -2.3rem; 
     }
 
     .copy {
@@ -1539,7 +1539,7 @@ footer h4{
         white-space: nowrap;
         position: relative;
         top: -2rem;
-        margin-left: -1rem;
+        margin-left: -5px;
     }
 
     .float-btn-whats {
