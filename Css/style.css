@@ -1524,7 +1524,9 @@ footer h4{
 
     .list-footer {
         font-size: 13px;
-        margin-left: -2rem;
+        padding-left: 2rem;
+        position: relative;
+        right: -5px;
       
     }
 
