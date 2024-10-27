@@ -1432,7 +1432,7 @@ footer h4{
 
 
     .soft-txt-container{
-        bottom: 13rem;
+        bottom: 8rem;
         right: 9px;
     }
 
@@ -1522,7 +1522,7 @@ footer h4{
 
     .list-footer {
         font-size: 13px;
-        padding-left: 1.5rem;
+        padding-left: 1.7rem;
     }
 
     .list-footer li span{
@@ -1535,7 +1535,7 @@ footer h4{
     }
 
     .copy {
-        font-size: 15px;
+        font-size: 14px;
         white-space: nowrap;
         position: relative;
         top: -2rem;
