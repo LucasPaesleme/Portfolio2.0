@@ -1519,6 +1519,10 @@ footer h4{
         justify-content: center;
         margin-bottom: 1rem;
     }
+    footer li:not(:last-child)::after {
+        margin-left:5px;  
+    }
+    
 
     .list-footer {
         font-size: 13px;
@@ -1531,7 +1535,7 @@ footer h4{
     }
 
     .footer-icons {
-        margin-right: -3rem; 
+        margin-right: -2.3rem; 
     }
 
     .copy {
